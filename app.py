@@ -47,14 +47,6 @@ fig, ax = plt.subplots()
 ax.hist(df['Sales'], bins=30)
 st.pyplot(fig)
 
-df = pd.read_csv("Sample - Superstore.csv", encoding='latin1')
-
-st.subheader("Sales Distribution")
-
-fig, ax = plt.subplots()
-ax.hist(df['Sales'], bins=30)
-st.pyplot(fig)
-
 st.subheader("Sales by Category")
 
 fig, ax = plt.subplots()
