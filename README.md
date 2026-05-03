@@ -94,7 +94,7 @@
 - StandardScaler
 - model
 
---
+---
 
 ## Streamlit приложение
 
