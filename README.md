@@ -98,7 +98,7 @@
 
 ## Streamlit приложение
 
-Пользователь может ввести параметры заказа и получить предсказание Sales.
+Пользователь может ввести параметры заказа и получить предсказание Sales. Link: https://zhanelashirbek-superstore-sales-prediction-app-sdimec.streamlit.app/
 
 ### Интерфейс включает:
 - выбор категорий
