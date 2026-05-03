@@ -112,13 +112,3 @@
 
 ---
 
-## Структура проекта
-
-```text
-superstore-sales-prediction/
-│
-├── app.py
-├── model.pkl
-├── requirements.txt
-├── Sample - Superstore.csv
-└── README.md
