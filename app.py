@@ -58,3 +58,19 @@ st.subheader("Sales by Region")
 fig, ax = plt.subplots()
 sns.barplot(data=df, x='Region', y='Sales', ax=ax)
 st.pyplot(fig)
+
+st.subheader("Average Sales by Month")
+
+sales_by_month = df.groupby('order_month')['Sales'].mean().reset_index()
+
+fig, ax = plt.subplots()
+ax.plot(
+    sales_by_month['order_month'],
+    sales_by_month['Sales'],
+    marker='o'
+)
+ax.set_title("Average Sales by Month")
+ax.set_xlabel("Month")
+ax.set_ylabel("Average Sales")
+
+st.pyplot(fig)
