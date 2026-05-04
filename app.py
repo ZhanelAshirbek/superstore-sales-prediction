@@ -41,6 +41,10 @@ if st.button("Predict Sales"):
 
     pred = model.predict(input_df)
     st.success(f"Predicted Sales: ${pred[0]:.2f}")
+if month in [11, 12]:
+    st.info("Продажи могут быть выше из-за сезонного спроса.")
+elif month in [1, 2]:
+    st.info("Продажи могут быть ниже по сравнению с праздничными месяцами.")
 
 st.subheader("Sales Distribution")
 fig, ax = plt.subplots()
