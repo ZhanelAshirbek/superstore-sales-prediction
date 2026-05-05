@@ -75,6 +75,3 @@ ax.set_xlabel("Month")
 ax.set_ylabel("Average Sales")
 
 st.pyplot(fig)
-
-sns.boxplot(data=df, x='Category', y='Profit')
-plt.show()
